@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="faceRec.css">
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Quicksand:700');
+</style>
+</head>
+
+<body>
+
+<main>
+  <h2>Gotcha!</h2>
+  <button id="analyze">Detect faces</button>
+  <div class="dropzone">
+    <label class="dropzone-text">
+      <input type="file" id="file" accept="image/*">
+        Drop or upload an image here
+    </label>
+  </div>
+
+</main>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+</script>
+<script src="jquery.facedetection/jquery.facedetection.min.js"></script>
+<script src="faceRec.js"></script>
+
+</body>
+
+</html>
